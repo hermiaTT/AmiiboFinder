@@ -1,0 +1,145 @@
+$body-color: slateblue;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: $body-color;
+  font-family: sans-serif;
+  margin: 0;
+  background-color: rgb(112, 113, 116);
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cccccc;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  //justify-content: space-between;
+}
+
+// main .number {
+//   font-family: "Exo", Arial, Helvetica, sans-serif;
+
+//   color: rgb(141, 12, 12);
+// }
+
+nav {
+  background-color: #7dbabe;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px 10px 10px;
+}
+
+nav > h1 {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+  font-family: Chalkduster, fantasy;
+}
+
+.fields {
+  margin-top: 10px;
+}
+
+section .fields input {
+  width: 20%;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  padding: 8 8px;
+  outline: none;
+}
+
+section .fields .charSubmit {
+  margin-right: 15px;
+  border-radius: 8px;
+  width: 40px;
+  min-width: 80px;
+  border: none;
+  color: white;
+  outline: none;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background: #e67f81;
+}
+span {
+  margin-left: 100px;
+}
+.charSelection {
+  // margin-right: 1px;
+  border-radius: 2px;
+  width: 40px;
+  min-width: 80px;
+  border: none;
+  color: white;
+  outline: none;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background-color: #e68f91;
+}
+
+.charSelection:hover:not(.active) {
+  background-color: rgb(69, 80, 87);
+}
+
+.mario.active {
+  background: #b12527;
+}
+.zelda.active {
+  background: #3b7baf;
+}
+.peach.active {
+  background: #ec2eb3;
+}
+
+.zxy.active {
+  background: #0da039;
+}
+
+.container {
+  max-height: calc(100vh - 100px);
+  overflow: scroll;
+  margin-top: 10px;
+  max-width: 1200px;
+}
+
+.imageGallery {
+  margin: 5px;
+  float: left;
+  width: 270px;
+  height: 400px;
+}
+
+.imageGallery img {
+  width: 100%;
+  //padding: 20px;
+  height: 300px;
+  object-fit: contain;
+}
+.charName {
+  //padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Blippo, fantasy;
+  color: #acd4e0;
+  //width: 50%;
+}
+
+.series {
+  font-family: Jazz LET, fantasy;
+  color: #c7d8d3;
+}
+.homePage {
+  font-family: Chalkduster, fantasy;
+  font-size: 80px;
+  margin-left: 50px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+}
