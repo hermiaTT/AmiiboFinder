@@ -1,0 +1,2 @@
+# AmiiboFinder
+Find my amiibo
